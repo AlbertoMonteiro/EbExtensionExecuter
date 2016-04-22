@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("EbExtensionExecuter")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Small library to help to write steps execution to substitute the ebextensions from AWS")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Alberto Monteiro")]
 [assembly: AssemblyProduct("EbExtensionExecuter")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyCopyright("Copyright © Alberto Monteiro 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
