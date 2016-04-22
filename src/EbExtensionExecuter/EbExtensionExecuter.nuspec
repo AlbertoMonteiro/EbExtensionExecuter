@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
     <id>$id$</id>
     <version>$version$</version>
@@ -9,8 +9,11 @@
     <licenseUrl>https://github.com/AlbertoMonteiro/EbExtensionExecuter/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/AlbertoMonteiro/EbExtensionExecuter</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>$description$</summary>
     <description>$description$</description>
+    <releaseNotes></releaseNotes>
     <copyright>$copyright$</copyright>
+    <language>en-us</language>
     <tags>ebextensions aws</tags>
   </metadata>
 </package>

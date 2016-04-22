@@ -49,6 +49,7 @@
     <Compile Include="Steps\IStep.cs" />
     <Compile Include="Steps\IStepsExecutor.cs" />
     <Compile Include="Steps\RemoveDirectory.cs" />
+    <Compile Include="Steps\RemoveFile.cs" />
     <Compile Include="Steps\StepsExecutor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
