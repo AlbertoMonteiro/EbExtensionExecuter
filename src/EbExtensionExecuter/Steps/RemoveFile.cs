@@ -24,7 +24,7 @@ namespace EbExtensionExecuter.Steps
                 WriteLine("File removed");
             }
             else
-                WriteLine("File does not exists");
+                WriteLine("File does not exists", Red);
             WriteLine($"===== End Remove file: {_filePath} =====", Yellow);
             return true;
         }

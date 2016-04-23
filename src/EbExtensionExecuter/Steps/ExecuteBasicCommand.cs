@@ -31,7 +31,7 @@ namespace EbExtensionExecuter.Steps
                 WriteLine("The exe exists");
                 return ExecuteExe();
             }
-            WriteLine("Checking if exe exists");
+            WriteLine("The does not exe exists", Red);
             return true;
         }
 
@@ -43,7 +43,7 @@ namespace EbExtensionExecuter.Steps
 
         private bool ExecuteExe()
         {
-            var startInfo = new ProcessStartInfo(_exe, _arguments);
+            var startInfo = new ProcessStartInfo(_exe, _arguments) { UseShellExecute = false };
             var process = new Process { StartInfo = startInfo };
             WriteLine($"Executing: {startInfo.FileName} {startInfo.Arguments}");
             process.Start();

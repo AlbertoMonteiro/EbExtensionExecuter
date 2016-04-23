@@ -24,7 +24,7 @@ namespace EbExtensionExecuter.Steps
                 WriteLine("Directory removed");
             }
             else
-                WriteLine("Directory does not exists");
+                WriteLine("Directory does not exists", Red);
             WriteLine($"===== End Remove Directory: {_directory} =====", Yellow);
             return true;
         }
