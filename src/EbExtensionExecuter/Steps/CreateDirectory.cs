@@ -19,12 +19,14 @@ namespace EbExtensionExecuter.Steps
             WriteLine("Checking if directory exists");
             if (Exists(_directory))
             {
+                WriteLine("Directory already exists", White);
+            }
+            else
+            {
                 WriteLine("Creating directory");
                 CreateDirectory(_directory);
                 WriteLine("Directory created");
             }
-            else
-                WriteLine("Directory already exists", White);
             WriteLine($"===== End Create Directory: {_directory} =====", Yellow);
             return true;
         }
